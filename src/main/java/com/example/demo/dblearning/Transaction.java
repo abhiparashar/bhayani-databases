@@ -1,9 +1,7 @@
-package com.example.demo;
+package com.example.demo.dblearning;
 
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor

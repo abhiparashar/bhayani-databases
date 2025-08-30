@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.dblearning;
 
 public enum TransactionState {
     ACTIVE, COMMITTED, ABORTED
