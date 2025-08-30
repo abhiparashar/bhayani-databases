@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +8,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 public class Transaction {
-    private final String transactionId;
-    private final TransactionState state;
+    private String transactionId;
+    private TransactionState state;
     private long startTimestamp;
 
     public Transaction(String transactionId) {
