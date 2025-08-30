@@ -17,6 +17,4 @@ public class Transaction {
         this.transactionState = TransactionState.ACTIVE;
         this.startTimeStamp = System.currentTimeMillis();
     }
-
-
 }
